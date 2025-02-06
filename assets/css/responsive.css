@@ -1,0 +1,35 @@
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .hero .hero-left, .hero .hero-right {
+        width: 100%;
+    }
+    .hero  .row{
+        flex-direction: column-reverse;
+    }
+    .page-detail {
+        display: none;
+    }
+  #toggle-btn{
+    display: block;
+  }
+  .page-detail.active {
+    display: block;
+}
+.page-detail.active {
+    display: block;
+    position: absolute;
+    top: 115%;
+    background-color: var(--black);
+    width: 100%;
+    padding: 10px 0;
+}
+.menu-bar {
+
+    position: relative;
+}
+.page-detail.active ul{
+    flex-direction: column;
+}
+}
