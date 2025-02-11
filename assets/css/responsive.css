@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) and (max-width: 991px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
     .row{
         flex-wrap: wrap;
     }
@@ -29,7 +29,13 @@
 
     position: relative;
 }
-.page-detail.active ul{
+.page-detail.active ul, .features-box, .core-features-a{
     flex-direction: column;
 }
+.title-box-main,.features-box-a,.core-features-right {
+    width: 100%;
+  
 }
+
+}
+

@@ -75,8 +75,11 @@
 .g-25{
     gap: 25px;
 }
-.features,.core-features{
+.features,.prizing{
     padding: 100px 0;
+  }
+  .core-features{
+    padding-bottom: 100px;
   }
   .bg-white{
     background-color: #f9f9ff;
@@ -294,4 +297,29 @@ header .page-detail ul {
     padding: 30px 25px;
     border-radius: 8px;
     margin: 25px 0;
+}
+.prizing .prizing-a{
+width: 50%;
+}
+.prizing .prizing-a h2{
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: var(--heading-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.prizing .prizing-a p{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: var(--para-text);
+  line-height: 25px;
+  font-size: 15px;  
+}
+.prizing-box-a ul{
+  list-style: none;
+}
+.prizing-box-a {
+  border: 1px solid red;
 }
